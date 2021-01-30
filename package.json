@@ -1,0 +1,14 @@
+{
+  "name": "htmltopdf",
+  "version": "1.0.0",
+  "description": "htmltopdf",
+  "scripts": {
+    "new": "plop",
+    "start": "node ./new"
+  },
+  "author": "yehohcer",
+  "dependencies": {
+    "plop": "^2.7.4",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}

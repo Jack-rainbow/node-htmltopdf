@@ -1,0 +1,3 @@
+var wkhtmltopdf = require('wkhtmltopdf');
+var fs = require('fs');
+wkhtmltopdf('{{ url }}',{ pageSize: 'letter' }).pipe(fs.createWriteStream('/pdf/{{ pdfName }}.pdf'))
